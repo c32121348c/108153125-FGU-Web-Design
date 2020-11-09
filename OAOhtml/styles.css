@@ -1,0 +1,44 @@
+html{
+    font-size: 10px;
+    height: 100vh;
+}
+body{
+    background-color: #ffffe7;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: #c7c7f7;
+}
+section{
+    background-color: #c7f7c7;
+}
+footer{
+    background-color: #e7e7e7;
+}
+.site-container {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    height: 100vh;
+}
+.site-banner {
+    padding: 1rem;
+}
+.site-body {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+.site-status {
+    background-color: #696969;
+    color: #f0fff0;
+    padding: 0 1rem;
+}
+.site-footer {
+    background: MidnightBlue;
+    color: SteelBlue;
+    flex-shrink: 0;
+    padding: .1rem .5rem;
+    text-align: right;
+}
