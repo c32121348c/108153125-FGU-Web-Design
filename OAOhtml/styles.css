@@ -42,3 +42,46 @@ footer{
     padding: .1rem .5rem;
     text-align: right;
 }
+.card {
+    border-radius: 12px;
+    border: 1px solid azure;
+    padding: .25rem .5rem;
+    margin: 1rem 3rem;
+    box-shadow: 3px 5px;
+    background-color: #ffefcf;
+    opacity: .75;
+    text-align: center;
+}
+.card-header {
+    display: flex;
+    position: relative;
+    line-height: 2rem;
+    height: 2rem;
+    margin: 0.75rem 0.25rem 0.5rem 0.25rem;
+    text-align: left;
+}
+.card-content {
+    background-color: #fffaf0;
+    margin: .25rem;
+    padding: 1rem 0;
+    border-top: 3px solid #aaaacc;
+    border-bottom: 3px solid #aaaacc;
+}
+.pane {
+    display: flex;
+    flex-flow: column;
+  }
+.h-field {
+    display: flex;
+    justify-content: center;
+}
+.control-label {
+    display: inline-block;
+    width: 6rem;
+    margin: .25rem .25rem;
+}
+.control {
+    display: inline-block;
+    width: 16rem;
+    margin: .25rem .25rem;
+}
