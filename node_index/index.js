@@ -4,6 +4,7 @@ const route_table = {
   '/': '../OAOhtml/index.html',
   '/QAQ': '../OAOhtml/styles.css',
   '/OAO': '../OAOhtml/index.js',
+  '/favicon.ico': ''
 };
 
 const mime_type = {
